@@ -1,0 +1,7 @@
+C:\Users\nurik\source\repos\RemoteControl\RemoteControl\bin\Debug\RemoteControl.exe.config
+C:\Users\nurik\source\repos\RemoteControl\RemoteControl\bin\Debug\RemoteControl.exe
+C:\Users\nurik\source\repos\RemoteControl\RemoteControl\bin\Debug\RemoteControl.pdb
+C:\Users\nurik\source\repos\RemoteControl\RemoteControl\obj\Debug\RemoteControl.csprojAssemblyReference.cache
+C:\Users\nurik\source\repos\RemoteControl\RemoteControl\obj\Debug\RemoteControl.csproj.CoreCompileInputs.cache
+C:\Users\nurik\source\repos\RemoteControl\RemoteControl\obj\Debug\RemoteControl.exe
+C:\Users\nurik\source\repos\RemoteControl\RemoteControl\obj\Debug\RemoteControl.pdb

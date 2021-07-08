@@ -1,0 +1,7 @@
+C:\Users\nurik\source\repos\RemoteControlWithUndo\RemoteControlWithUndo\obj\Debug\RemoteControlWithUndo.csprojAssemblyReference.cache
+C:\Users\nurik\source\repos\RemoteControlWithUndo\RemoteControlWithUndo\obj\Debug\RemoteControlWithUndo.csproj.CoreCompileInputs.cache
+C:\Users\nurik\source\repos\RemoteControlWithUndo\RemoteControlWithUndo\bin\Debug\RemoteControlWithUndo.exe.config
+C:\Users\nurik\source\repos\RemoteControlWithUndo\RemoteControlWithUndo\bin\Debug\RemoteControlWithUndo.exe
+C:\Users\nurik\source\repos\RemoteControlWithUndo\RemoteControlWithUndo\bin\Debug\RemoteControlWithUndo.pdb
+C:\Users\nurik\source\repos\RemoteControlWithUndo\RemoteControlWithUndo\obj\Debug\RemoteControlWithUndo.exe
+C:\Users\nurik\source\repos\RemoteControlWithUndo\RemoteControlWithUndo\obj\Debug\RemoteControlWithUndo.pdb

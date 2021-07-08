@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28D11557-083D-43D7-BD4B-1986D6AA237C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RemoteControl</RootNamespace>
+    <AssemblyName>RemoteControl</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command\Abstraction\ICommand.cs" />
+    <Compile Include="Command\CeilingFanOffCommand.cs" />
+    <Compile Include="Command\CeilingOnCommand.cs" />
+    <Compile Include="Command\GarageDoorDownCommand.cs" />
+    <Compile Include="Command\GarageDoorUpCommand.cs" />
+    <Compile Include="Command\HottubOffCommand.cs" />
+    <Compile Include="Command\HottubOnCommand.cs" />
+    <Compile Include="Command\LightOffCommand.cs" />
+    <Compile Include="Command\LightOnCommand.cs" />
+    <Compile Include="Command\LivingroomLightOffCommand.cs" />
+    <Compile Include="Command\LivingroomLightOnCommand.cs" />
+    <Compile Include="Command\NoCommand.cs" />
+    <Compile Include="Command\StereoOffCommand.cs" />
+    <Compile Include="Command\StereoOnWithCDCommand.cs" />
+    <Compile Include="Invokers\RemoteControl.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recievers\CeilingFan.cs" />
+    <Compile Include="Recievers\GarageDoor.cs" />
+    <Compile Include="Recievers\Hottub.cs" />
+    <Compile Include="Recievers\Light.cs" />
+    <Compile Include="Recievers\Stereo.cs" />
+    <Compile Include="Recievers\TV.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
